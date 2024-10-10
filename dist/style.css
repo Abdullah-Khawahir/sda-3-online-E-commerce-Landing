@@ -1,0 +1,129 @@
+* * {
+	/*outline: solid 1px rgba(255,0,0,0.33);*/
+}
+
+body {
+	margin: auto;
+	width: 90%;
+}
+
+.borderd {
+	border: 1px black solid;
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+/* Header Section */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header img {
+	width: 150px;
+}
+
+.header nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.header nav ul li {
+	margin-left: 20px;
+}
+
+.header nav ul li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+	text-align: center;
+	padding: 100px 20px;
+}
+
+.hero h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.hero button {
+	padding: 15px 30px;
+}
+
+/* Product Showcase */
+.product-showcase {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 20px;
+}
+
+.product {
+	text-align: center;
+	width: 250px;
+}
+
+
+.product h3 {
+	margin: 15px 0;
+}
+
+.product p {
+	color: gray;
+}
+
+.reviews {
+	text-align: center;
+	padding: 50px 20px;
+}
+
+.review {
+	margin-bottom: 30px;
+}
+
+/* Newsletter Subscription */
+.newsletter {
+	padding: 50px 20px;
+	text-align: center;
+}
+
+.newsletter input {
+	padding: 10px;
+	width: 300px;
+	margin-right: 10px;
+}
+
+.newsletter button {
+	padding: 10px 20px;
+}
+
+.footer {
+	text-align: center;
+	padding: 20px;
+
+}
+
+.footer ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer ul li {
+	margin: 10px 0;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer .social-icons img {
+	width: 30px;
+	margin: 0 10px;
+}
